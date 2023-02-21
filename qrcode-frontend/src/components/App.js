@@ -1,9 +1,10 @@
 import React from "react";
+import Qrscanner from "./QrcodeReader";
 
 const App = () => {
   return (
-    <div className="overflow-hidden w-screen min-h-screen text-7xl bg-lightblueAW3 flex justify-center items-center">
-      QRCODE project
+    <div className="overflow-hidden w-screen min-h-screen bg-lightblueAW3 flex justify-center items-center">
+      <Qrscanner />
     </div>
   );
 };
